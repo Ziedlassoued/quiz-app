@@ -50,7 +50,10 @@ function showAnswerIsCorrect() {
   resultElement.className = "correct";
   document.body.append(resultElement);
 }
-
+function disabledButtons() {
+  yesButton.disabled = true;
+  noButton.disabled = true;
+}
 /*}
   const newP = document.createElement("p");
   const newContent = document.createTextNode("The Answer is correct");
