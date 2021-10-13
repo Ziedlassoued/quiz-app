@@ -1,9 +1,19 @@
 h1 {
-  color: blueviolet;
+  color: darkcyan;
 }
-button {
-  background: chartreuse;
+
+.no {
+  background: orange;
 }
+
 .yes {
-  background: chocolate;
+  background: green;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
 }
